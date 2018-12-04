@@ -1,0 +1,41 @@
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame1090.jpg 1177,21,1295,194,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame110.jpg 1181,839,1365,998,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame1120.jpg 1564,763,1776,897,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame1170.jpg 1759,778,1889,987,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame1260.jpg 324,297,511,465,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame130.jpg 1300,724,1529,868,0 842,638,1090,805,0 803,808,1045,944,0 1060,868,1282,995,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame1450.jpg 636,816,853,1031,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame1500.jpg 1049,623,1261,860,0 522,781,734,1017,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame1590.jpg 736,887,916,1048,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame160.jpg 1318,627,1511,829,0 639,748,870,947,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame1630.jpg 1428,916,1620,1080,0 300,945,536,1078,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame1640.jpg 355,945,573,1080,0 1431,897,1617,1080,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame1650.jpg 395,938,599,1080,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame1670.jpg 454,898,659,1019,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame170.jpg 1321,605,1508,827,0 560,728,794,891,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame1700.jpg 1270,879,1476,1006,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame1780.jpg 1642,545,1821,712,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame220.jpg 476,667,691,869,0 1375,746,1578,970,0 1022,363,1130,575,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame230.jpg 460,716,667,908,0 1416,753,1585,938,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame250.jpg 460,737,634,969,0 1449,762,1616,940,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame260.jpg 1464,512,1681,623,0 1459,741,1614,936,0 488,786,608,988,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame270.jpg 1188,704,1385,848,0 468,799,605,985,0 1495,773,1708,908,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame290.jpg 470,796,655,986,0 1414,795,1614,919,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame310.jpg 1397,500,1589,660,0 1509,656,1701,766,0 424,819,613,974,0 1342,778,1530,973,0 1781,825,1905,1010,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame330.jpg 1417,665,1585,838,0 347,795,553,969,0 1600,542,1755,713,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame350.jpg 1425,586,1567,823,0 1591,717,1754,913,0 1196,681,1358,911,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame410.jpg 1295,621,1441,812,0 1159,398,1292,523,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame420.jpg 1149,417,1346,540,0 1256,858,1479,985,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame440.jpg 1145,378,1374,553,0 1295,761,1459,978,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame450.jpg 1174,399,1391,538,0 1312,779,1472,982,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame480.jpg 418,169,504,362,0 1588,529,1759,706,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame510.jpg 1192,653,1337,886,0 1539,781,1710,962,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame530.jpg 1371,225,1491,307,0 1158,660,1349,833,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame540.jpg 1193,656,1354,821,0 1174,866,1404,992,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame630.jpg 918,416,985,521,0 775,652,875,711,0 906,658,992,729,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame690.jpg 1437,553,1485,633,0 471,592,564,666,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame710.jpg 1159,592,1213,667,0 501,604,556,692,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame720.jpg 1700,596,1838,727,0 1016,649,1112,703,0 495,635,568,695,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame760.jpg 391,582,472,661,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame80.jpg 864,745,1080,938,0
+C:\Users\Dawid\PycharmProjects\bee_detection/dataset/train/49frame820.jpg 992,623,1116,733,0 1424,766,1549,866,0 1356,348,1434,471,0
