@@ -81,7 +81,7 @@ def _main():
                             validation_steps=max(1, num_val // batch_size),
                             epochs=100,
                             initial_epoch=50,
-                            callbacks=[logging, checkpoint, reduce_lr, early_stopping])
+                            callbacks=[logging, checkpoint])
         model.save_weights(log_dir + 'trained_weights_final.h5')
 
     # Further training if needed.
