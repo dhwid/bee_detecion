@@ -23,7 +23,7 @@ class YOLO(object):
         "model_path": 'model_data/yolo.h5',
         "anchors_path": 'model_data/tiny_yolo_anchors.txt',
         "classes_path": 'model_data/coco_classes.txt',
-        "score" : 0.3,
+        "score" : 0.15,
         "iou" : 0.45,
         "model_image_size" : (416, 416),
         "gpu_num" : 1,
@@ -178,6 +178,7 @@ def detect_video(yolo, video_path, output_path=""):
     video_fps       = vid.get(cv2.CAP_PROP_FPS)
     video_size      = (int(vid.get(cv2.CAP_PROP_FRAME_WIDTH)),
                         int(vid.get(cv2.CAP_PROP_FRAME_HEIGHT)))
+    print("FPS:", video_fps)
     isOutput = True if output_path != "" else False
     if isOutput:
         print("!!! TYPE:", type(output_path), type(video_FourCC), type(video_fps), type(video_size))
@@ -187,26 +188,30 @@ def detect_video(yolo, video_path, output_path=""):
     fps = "FPS: ??"
     prev_time = timer()
     while True:
-        return_value, frame = vid.read()
-        image = Image.fromarray(frame)
-        image = yolo.detect_image(image)
-        result = np.asarray(image)
-        curr_time = timer()
-        exec_time = curr_time - prev_time
-        prev_time = curr_time
-        accum_time = accum_time + exec_time
-        curr_fps = curr_fps + 1
-        if accum_time > 1:
-            accum_time = accum_time - 1
-            fps = "FPS: " + str(curr_fps)
-            curr_fps = 0
-        # cv2.putText(result, text=fps, org=(3, 15), fontFace=cv2.FONT_HERSHEY_SIMPLEX,
-        #             fontScale=0.50, color=(255, 0, 0), thickness=2)
-        # cv2.namedWindow("result", cv2.WINDOW_NORMAL)
-        # cv2.imshow("result", result)
-        if isOutput:
-            out.write(result)
-        if cv2.waitKey(1) & 0xFF == ord('q'):
+        try:
+            return_value, frame = vid.read()
+            image = Image.fromarray(frame)
+            image = yolo.detect_image(image)
+            result = np.asarray(image)
+            curr_time = timer()
+            exec_time = curr_time - prev_time
+            prev_time = curr_time
+            accum_time = accum_time + exec_time
+            curr_fps = curr_fps + 1
+            if accum_time > 1:
+                accum_time = accum_time - 1
+                fps = "FPS: " + str(curr_fps)
+                curr_fps = 0
+            # cv2.putText(result, text=fps, org=(3, 15), fontFace=cv2.FONT_HERSHEY_SIMPLEX,
+            #             fontScale=0.50, color=(255, 0, 0), thickness=2)
+            # cv2.namedWindow("result", cv2.WINDOW_NORMAL)
+            # cv2.imshow("result", result)
+            if isOutput:
+                out.write(result)
+            if cv2.waitKey(1) & 0xFF == ord('q'):
+                break
+        except Exception as ex :
+            print("Exception handled, so break main from main loop ", ex)
             break
     yolo.close_session()
 

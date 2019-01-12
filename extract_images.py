@@ -1,7 +1,7 @@
 import cv2
 import os
 
-WRITE_FRAME_STEP = 30 * 1  # 30 FRAMES PER SECOND
+WRITE_FRAME_STEP = 30 * 5  # 30 FRAMES PER SECOND
 
 
 def extract_video(filepath, filename):
